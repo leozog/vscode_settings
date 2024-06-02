@@ -394,6 +394,17 @@
         },
         {
             "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "g",
+                "g",
+                "V",
+                "G",
+            ]
+        },
+        {
+            "before": [
                 "<leader>",
                 "r"
             ],
@@ -407,7 +418,6 @@
     ],
     "vim.leader": ",",
     "vim.handleKeys": {
-        "<C-a>": false,
         "<C-f>": false
     },
     "extensions.experimental.affinity": {
