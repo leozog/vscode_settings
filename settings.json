@@ -1,0 +1,420 @@
+{
+    "remote.SSH.remotePlatform": {
+        "pascal.fis.agh.edu.pl": "linux",
+        "taurus.fis.agh.edu.pl": "linux"
+    },
+    "editor.minimap.enabled": false,
+    "C_Cpp.default.cppStandard": "gnu++23",
+    "C_Cpp.default.cStandard": "gnu23",
+    "indentRainbow.errorColor": "rgba(64,32,32,0.6)",
+    "C_Cpp.default.compilerPath": "C:\\mingw64\\bin\\gcc.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false
+    },
+    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": -1,
+    "github.copilot.advanced": {},
+    "rust-analyzer.rustfmt.overrideCommand": null,
+    "rust-analyzer.check.overrideCommand": null,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<up>"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "<down>"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "<left>"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "<right>"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "e"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "e"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "s"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "f"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "S-f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "S-f"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "j"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "k"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "b"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        // Stay in visual mode while indenting
+        {
+            "before": [
+                "S-h"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before": [
+                "S-l"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        // Move selected lines while staying in visual mode
+        {
+            "before": [
+                "S-j"
+            ],
+            "commands": [
+                "editor.action.moveLinesDownAction"
+            ]
+        },
+        {
+            "before": [
+                "S-k"
+            ],
+            "commands": [
+                "editor.action.moveLinesUpAction"
+            ]
+        },
+        // Toggle comment selection
+        {
+            "before": [
+                "<space>",
+                "c"
+            ],
+            "commands": [
+                "editor.action.commentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "after": [
+                ":",
+                "%",
+                "s",
+                "/"
+            ]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo",
+                    "args": []
+                }
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "w"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "e"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "e"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "s"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "s"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "f"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "S-f"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "S-f"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "j"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "k"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<space>",
+                "b"
+            ],
+            "after": [
+                "<leader>",
+                "<leader>",
+                "b"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        },
+        // NAVIGATION
+        // Switch b/w buffers
+        {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "r"
+            ],
+            "after": [
+                ":",
+                "%",
+                "s",
+                "/"
+            ]
+        },
+    ],
+    "vim.leader": ",",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "editor.cursorSurroundingLines": 15,
+    "editor.cursorStyle": "line-thin",
+    "git.autofetch": true,
+    "github.copilot.editor.enableAutoCompletions": true
+}
