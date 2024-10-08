@@ -3,25 +3,24 @@
         "pascal.fis.agh.edu.pl": "linux",
         "taurus.fis.agh.edu.pl": "linux"
     },
+    "workbench.colorTheme": "GitHub Dark Dimmed",
     "editor.minimap.enabled": false,
-    "C_Cpp.default.cppStandard": "gnu++23",
+    "C_Cpp.default.cppStandard": "c++23",
     "C_Cpp.default.cStandard": "gnu23",
     "indentRainbow.errorColor": "rgba(64,32,32,0.6)",
     "C_Cpp.default.compilerPath": "C:\\mingw64\\bin\\gcc.exe",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "github.copilot.enable": {
         "*": true,
-        "plaintext": true,
+        "plaintext": false,
         "markdown": false,
         "scminput": false
     },
-    "workbench.colorTheme": "GitHub Dark Default",
-    "workbench.editor.enablePreview": false,
-    "window.zoomLevel": -1,
     "github.copilot.advanced": {},
+    "github.copilot.editor.enableAutoCompletions": true,
     "rust-analyzer.rustfmt.overrideCommand": null,
     "rust-analyzer.check.overrideCommand": null,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.lineNumbers": "relative",
     "vim.easymotion": true,
     "vim.incsearch": true,
@@ -29,6 +28,24 @@
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
     "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "j"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "f"
+            ],
+            "after": [
+                "Esc"
+            ]
+        },
         {
             "before": [
                 "<up>"
@@ -381,7 +398,7 @@
                 "<C-h>"
             ],
             "commands": [
-                ":bprevious"
+                "workbench.action.focusNextGroup"
             ]
         },
         {
@@ -425,6 +442,30 @@
     },
     "editor.cursorSurroundingLines": 15,
     "editor.cursorStyle": "line-thin",
+    "editor.fontWeight": "bold",
+    "workbench.tree.indent": 24,
     "git.autofetch": true,
-    "github.copilot.editor.enableAutoCompletions": true
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.detectIndentation": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "gitlens.hovers.enabled": false,
+    "git.ignoreRebaseWarning": true,
+    "peacock.surpriseMeOnStartup": true,
+    "peacock.affectActivityBar": false,
+    "peacock.affectStatusBar": false,
+    "peacock.affectSashHover": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.enablePreview": false,
+    "window.zoomLevel": -1,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "window.density.editorTabHeight": "compact",
+    "workbench.editor.tabSizing": "fixed",
+    "github.copilot.chat.experimental.inlineChatCompletionTrigger.enabled": true,
+    "github.copilot.chat.experimental.temporalContext.enabled": true,
+    "github.copilot.chat.experimental.generateTests.codeLens": true,
 }
